@@ -3,9 +3,9 @@
 
   <FactionDef ParentName="FactionBase">
     <defName>CosmicEmpire</defName>
-    <label>cosmic empire</label>
+    <label>cosmic empire colony</label>
     <categoryTag>Empire</categoryTag>
-    <description>A beyond-ultratech outpost colony belonging to a well-established empire./n/nThey has mastered Cosmic Matter technologies and have adapted it to everyday life. They have grown more advanced and more powerful than any other empire known, and even rival some non-transcendent Archotechs./n/nRarely exploring beyond their borders, why are they so far out here, at a random, uninteresting Rimworld?</description>
+    <description>A beyond-ultratech outpost colony belonging to a well-established empire./n/nThey have mastered Cosmic Matter technologies and have adapted it to everyday life. They have grown more advanced and more powerful than any other type of empire known, and even rival some non-transcendent Archotechs./n/nIt is unheard of for them to explore very far beyond their established borders, so why are they so far out here, at a random, seemingly uninteresting Rimworld?</description>
     <pawnSingular>scion</pawnSingular>
     <pawnsPlural>scions</pawnsPlural>
     <listOrderPriority>50</listOrderPriority>
@@ -18,10 +18,10 @@
     <canSiege>false</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>primarch</leaderTitle>
-    <royalFavorLabel>honor</royalFavorLabel>
+    <royalFavorLabel>societal burden</royalFavorLabel> <!-- A measure of how much you've contributed to the Cosmic Empire, rather than using an honor-based system. -->
     <royalFavorIconPath>UI/Icons/RoyalFavor</royalFavorIconPath>
     <leaderForceGenerateNewPawn>true</leaderForceGenerateNewPawn>
-    <fixedName>The Compact of Eternis</fixedName>
+    <factionNameMaker>NamerFactionCosmicEmpire</factionNameMaker> <!-- There's more than just one Cosmic Empire, so we're gonna give the outpost a varied name. -->
     <settlementNameMaker>NamerSettlementEmpire</settlementNameMaker>
     <pawnNameMaker>NamerPersonEmpire</pawnNameMaker>
     <pawnNameMakerFemale>NamerPersonEmpireFemale</pawnNameMakerFemale>
@@ -33,7 +33,7 @@
       <li>PlayerColony</li>
       <li>Ancients</li>
     </permanentEnemyToEveryoneExcept>
-    <techLevel>Ultra</techLevel>
+    <techLevel>Archotech</techLevel> <!-- Gen2 Cosmic tech is Archotech-level, and they've mastered that tech. -->
     <backstoryFilters>
       <li>
         <categories>
@@ -146,6 +146,40 @@
   </ThingSetMakerDef>
   
   <!-- =============================== Names =============================== -->
+
+	<RulePackDef>
+    <defName>NamerFactionCosmicEmpire</defName>
+    <include>
+      <li>EmpireNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)->[empire] of [ofThing]</li>
+        <li>r_name(p=2)->The [empire] of [ofThing]</li>
+        <li>r_name->The Eternal [empire]</li>
+        <li>r_name->The Compact of [empire]</li>
+        <li>r_name->The Pillar of [empire]</li>
+        <li>r_name->The Unity of [empire]</li>
+        <li>r_name->The Grand [empire]</li>
+        <li>r_name->The [Color] pillar</li>
+
+        <li>empire(p=4)->Empire</li>
+        <li>empire->Cohesion</li>
+        <li>empire->Compact</li>
+        <li>empire->Pillar</li>
+        <li>empire->Pact</li>
+
+        <li>ofThing(p=4)->[WordImperial]</li>
+        <li>ofThing->the Starkeeper</li>
+        <li>ofThing->the Starcrossed</li>
+        <li>ofThing->the Overseer</li>
+        <li>ofThing->Creation</li>
+        <li>ofThing->Perfection</li>
+        <li>ofThing->Eternity</li>
+        <li>ofThing->the Grandiose</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
 
   <RulePackDef>
     <defName>NamerSettlementEmpire</defName>

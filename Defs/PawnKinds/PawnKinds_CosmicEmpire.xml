@@ -89,7 +89,7 @@
 
 	<PawnKindDef ParentName="SoldierBase">
 		<defName>CosmicEmpire_Rifleman_Soldier</defName>
-		<label>rifleman</label>
+		<label>cosmic empire military unit</label>
 		<combatPower>60</combatPower>
 		<weaponMoney>2500~8000</weaponMoney>
 		<weaponTags>
@@ -113,7 +113,7 @@
 
 	<PawnKindDef ParentName="SoldierBase">
 		<defName>CosmicEmpire_AdvRifleman_Soldier</defName>
-		<label>advanced rifleman</label>
+		<label>cosmic empire advanced unit</label>
 		<combatPower>150</combatPower>
 		<weaponMoney>10000~100000</weaponMoney>
 		<weaponTags>
@@ -159,7 +159,7 @@
 
 	<PawnKindDef ParentName="SoldierBase">
 		<defName>CosmicEmpire_Heavy_Soldier</defName>
-		<label>heavy unit</label>
+		<label>cosmic empire heavy unit</label>
 		<combatPower>175</combatPower>
 		<weaponMoney>9999999</weaponMoney>
 		<weaponTags>
@@ -168,13 +168,12 @@
 		<apparelRequired Inherit="False">
 			<li>SNS_Apparel_CosmicPowerArmorHelmet</li>
 			<li>SNS_Apparel_CosmicPowerArmor</li>
-		</apparelRequired>		
+		</apparelRequired>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 		<skills>
 			<li>
 				<skill>Shooting</skill>
 				<range>8~16</range>
-			</li>
 			<li>
 				<skill>Melee</skill>
 				<range>8~16</range>
@@ -218,7 +217,7 @@
 
 	<PawnKindDef ParentName="SoldierBase">
 		<defName>CosmicEmpire_Lancer_Soldier</defName>
-		<label>cosmic lancer</label>
+		<label>cosmic lance unit</label>
 		<combatPower>200</combatPower>
 		<itemQuality>Excellent</itemQuality>
 		<weaponMoney>70000~170000</weaponMoney>
@@ -283,7 +282,7 @@
 		<apparelRequired Inherit="False">
 			<li>SNS_Apparel_CosmicPowerArmorHelmet</li>
 			<li>SNS_Apparel_CosmicPowerArmor</li>
-		</apparelRequired>		
+		</apparelRequired>
 		<biocodeWeaponChance>1.0</biocodeWeaponChance>
 		<skills>
 			<li>
@@ -325,7 +324,7 @@
 
 	<PawnKindDef ParentName="SoldierBase">
 		<defName>CosmicEmpire_Frontline_Soldier</defName>
-		<label>frontline soldier</label>
+		<label>cosmic empire frontline unit</label>
 		<combatPower>100</combatPower>
 		<weaponMoney>9999999</weaponMoney>
 		<weaponTags>
@@ -357,7 +356,7 @@
 
 	<PawnKindDef ParentName="SoldierBase">
 		<defName>CosmicEmpire_AdvFrontline_Soldier</defName>
-		<label>advanced frontline soldier</label>
+		<label>cosmic empire advanced frontline unit</label>
 		<combatPower>200</combatPower>
 		<itemQuality>Excellent</itemQuality>
 		<weaponMoney>9999999</weaponMoney>

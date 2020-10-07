@@ -3,7 +3,7 @@
 
     <TraderKindDef>
         <defName>Cosmic_BulkGoods</defName>
-        <label>bulk goods trader</label>
+        <label>cosmic empire bulk goods trader</label>
         <stockGenerators>
             <!-- Resources -->
             <li Class="StockGenerator_SingleDef">
