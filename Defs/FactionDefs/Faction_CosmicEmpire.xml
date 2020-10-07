@@ -5,7 +5,7 @@
     <defName>CosmicEmpire</defName>
     <label>cosmic empire colony</label>
     <categoryTag>Empire</categoryTag>
-    <description>A beyond-ultratech outpost colony belonging to a well-established empire./n/nThey have mastered Cosmic Matter technologies and have adapted it to everyday life. They have grown more advanced and more powerful than any other type of empire known, and even rival some non-transcendent Archotechs./n/nIt is unheard of for them to explore very far beyond their established borders, so why are they so far out here, at a random, seemingly uninteresting Rimworld?</description>
+    <description>A beyond-ultratech outpost colony belonging to a well-established empire.\n\nThey have mastered Cosmic Matter technologies and have adapted it to everyday life. They have grown more advanced and more powerful than any other type of empire known, and even rival some non-transcendent Archotechs.\n\nIt is unheard of for them to explore very far beyond their established borders, so why are they so far out here, at a random, seemingly uninteresting Rimworld?</description>
     <pawnSingular>scion</pawnSingular>
     <pawnsPlural>scions</pawnsPlural>
     <listOrderPriority>50</listOrderPriority>
